@@ -1,6 +1,5 @@
 import { Link } from "@tanstack/react-router";
 
-import heroApe from "@hero-ape";
 import { Button } from "@/components/ui/button";
 
 export default function HomeHero() {
@@ -35,7 +34,7 @@ export default function HomeHero() {
 
       <div className="relative">
         <img
-          src={heroApe}
+          src="/hero-ape.jpg"
           alt="Retrato de um colecionável digital da Kurio"
           className="aspect-square w-full rounded-[28px] object-cover"
         />
